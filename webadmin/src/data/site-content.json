@@ -1,0 +1,1207 @@
+{
+    "schemaVersion":  1,
+    "company":  {
+                    "id":  "A1B1",
+                    "name":  "Arbuda Bangles",
+                    "legalName":  "Arbuda Bangles",
+                    "established":  1977,
+                    "city":  "Ahmedabad",
+                    "country":  "India",
+                    "logo":  "/assets/images/company/ablogo.png"
+                },
+    "site":  {
+                 "title":  "Arbuda Bangles | Ahmedabad",
+                 "description":  "Explore colourful bangle collections from Arbuda Bangles, Ahmedabad. Established 1977.",
+                 "theme":  {
+                               "primary":  "#145a3b",
+                               "secondary":  "#ef812f",
+                               "dark":  "#103d2d",
+                               "cream":  "#fffaf1",
+                               "headingFont":  "Cormorant Garamond",
+                               "bodyFont":  "Inter"
+                           }
+             },
+    "header":  {
+                   "announcement":  "Since 1977 Â· Ahmedabad, India",
+                   "phoneLabel":  "Call us",
+                   "phones":  [
+                                  "+91 92655 98961",
+                                  "+91 78638 67139"
+                              ],
+                   "enquiryButton":  "Enquire Now",
+                   "loginButton":  "Sign in",
+                   "loginUrl":  "https://abedobiz.abbangles.com/login",
+                   "socials":  [
+                                   {
+                                       "type":  "whatsapp",
+                                       "label":  "WhatsApp",
+                                       "url":  "https://wa.me/919879003308"
+                                   },
+                                   {
+                                       "type":  "facebook",
+                                       "label":  "Facebook",
+                                       "url":  "https://www.facebook.com/search/top?q=Arbuda%20Bangles%20Ahmedabad"
+                                   },
+                                   {
+                                       "type":  "youtube",
+                                       "label":  "YouTube",
+                                       "url":  "https://www.youtube.com/watch?v=BCrZokqVrVw"
+                                   },
+                                   {
+                                       "type":  "instagram",
+                                       "label":  "Instagram",
+                                       "url":  "https://www.instagram.com/explore/search/keyword/?q=Arbuda%20Bangles%20Ahmedabad"
+                                   }
+                               ]
+               },
+    "enquiryForm":  {
+                        "eyebrow":  "LETâ€™S BUILD A COLORFUL PARTNERSHIP",
+                        "title":  "Letâ€™s talk business.",
+                        "description":  "Tell us a little about your business and our team will be in touch.",
+                        "topicLabel":  "Enquiry about",
+                        "interestLabel":  "Interested in",
+                        "fields":  [
+                                       {
+                                           "name":  "name",
+                                           "label":  "Your name",
+                                           "placeholder":  "How should we address you?",
+                                           "required":  true
+                                       },
+                                       {
+                                           "name":  "email",
+                                           "label":  "Email address",
+                                           "placeholder":  "you@yourbusiness.com",
+                                           "required":  true
+                                       },
+                                       {
+                                           "name":  "phone",
+                                           "label":  "Contact / WhatsApp number",
+                                           "placeholder":  "Include your country code",
+                                           "required":  true
+                                       },
+                                       {
+                                           "name":  "businessType",
+                                           "label":  "Your business type",
+                                           "placeholder":  "Select your business type",
+                                           "required":  true,
+                                           "options":  [
+                                                           "Wholesaler",
+                                                           "Retailer",
+                                                           "Distributor"
+                                                       ]
+                                       },
+                                       {
+                                           "name":  "message",
+                                           "label":  "Message",
+                                           "placeholder":  "Tell us what styles, quantities, or catalogue details youâ€™re looking for.",
+                                           "required":  true
+                                       }
+                                   ],
+                        "submitButton":  "Send enquiry",
+                        "privacyNote":  "Your details open in WhatsApp with your enquiry, ready to send.",
+                        "closeLabel":  "Close enquiry form"
+                    },
+    "navigation":  [
+                       {
+                           "label":  "Home",
+                           "href":  "/",
+                           "visible":  true
+                       },
+                       {
+                           "label":  "About Us",
+                           "href":  "/about",
+                           "visible":  true
+                       },
+                       {
+                           "label":  "Products",
+                           "href":  "/products",
+                           "visible":  true
+                       },
+                       {
+                           "label":  "Catalogue",
+                           "href":  "/catalogue",
+                           "visible":  true
+                       },
+                       {
+                           "label":  "Gallery",
+                           "href":  "/gallery",
+                           "visible":  true
+                       },
+                       {
+                           "label":  "Contact",
+                           "href":  "/contact",
+                           "visible":  true
+                       }
+                   ],
+    "pages":  {
+                  "home":  {
+                               "title":  "Home",
+                               "sections":  [
+                                                {
+                                                    "id":  "hero",
+                                                    "type":  "heroCarousel",
+                                                    "visible":  true,
+                                                    "eyebrow":  "A celebration of colour",
+                                                    "slides":  [
+                                                                   {
+                                                                       "title":  "Arbuda Bangles\nAhmedabad",
+                                                                       "description":  "Dealing in plastic, acrylic, metal, chuda and more â€” crafting colour and celebration for every occasion since 1977.",
+                                                                       "image":  "/assets/images/slider/slider1.png",
+                                                                       "primaryButton":  "Explore collection",
+                                                                       "primaryHref":  "/products?category=14",
+                                                                       "secondaryButton":  "View catalogue",
+                                                                       "secondaryHref":  "/catalogue"
+                                                                   },
+                                                                   {
+                                                                       "title":  "Every colour.\nEvery celebration.",
+                                                                       "description":  "Explore vibrant plastic and acrylic bangles for everyday style and unforgettable occasions.",
+                                                                       "image":  "/assets/images/slider/slider5.png",
+                                                                       "primaryButton":  "Explore collection",
+                                                                       "primaryHref":  "/products?category=14",
+                                                                       "secondaryButton":  "View catalogue",
+                                                                       "secondaryHref":  "/catalogue"
+                                                                   },
+                                                                   {
+                                                                       "title":  "The beauty of\nbrass \u0026 metal.",
+                                                                       "description":  "Beautifully detailed brass kadas, metal bangles and statement designs for your collection.",
+                                                                       "image":  "/assets/images/slider/slider2.avif",
+                                                                       "primaryButton":  "Explore collection",
+                                                                       "primaryHref":  "/products?category=3",
+                                                                       "secondaryButton":  "View catalogue",
+                                                                       "secondaryHref":  "/catalogue"
+                                                                   },
+                                                                   {
+                                                                       "title":  "A little tradition.\nA lot of love.",
+                                                                       "description":  "Discover festive chuda sets and classic bangles that bring every celebration to life.",
+                                                                       "image":  "/assets/images/slider/slider3.webp",
+                                                                       "primaryButton":  "Explore collection",
+                                                                       "primaryHref":  "/products?category=5",
+                                                                       "secondaryButton":  "View catalogue",
+                                                                       "secondaryHref":  "/catalogue"
+                                                                   },
+                                                                   {
+                                                                       "title":  "Discover more.\nStock better.",
+                                                                       "description":  "Browse an extensive range of colours, styles and finishes. Connect directly for wholesale enquiries.",
+                                                                       "image":  "/assets/images/slider/slider4.webp",
+                                                                       "primaryButton":  "Browse products",
+                                                                       "primaryHref":  "/products",
+                                                                       "secondaryButton":  "Enquire now",
+                                                                       "secondaryHref":  "enquiryModal"
+                                                                   }
+                                                               ]
+                                                },
+                                                {
+                                                    "id":  "trust-strip",
+                                                    "type":  "trustStrip",
+                                                    "visible":  true,
+                                                    "items":  [
+                                                                  "Since 1977",
+                                                                  "Wholesale \u0026 export",
+                                                                  "Quality collections",
+                                                                  "Worldwide delivery"
+                                                              ]
+                                                },
+                                                {
+                                                    "id":  "categories",
+                                                    "type":  "categoryGrid",
+                                                    "visible":  true,
+                                                    "title":  "Explore our collections",
+                                                    "description":  "Find a style for every occasion."
+                                                },
+                                                {
+                                                    "id":  "story",
+                                                    "type":  "story",
+                                                    "visible":  true,
+                                                    "eyebrow":  "OUR STORY",
+                                                    "title":  "A legacy of colour since 1977",
+                                                    "description":  "Traditional elegance, timeless collections. Arbuda Bangles has served retailers and partners with quality bangles for generations.",
+                                                    "image":  "/assets/images/slider/slider1.png",
+                                                    "stats":  [
+                                                                  {
+                                                                      "value":  "1977",
+                                                                      "label":  "Established"
+                                                                  },
+                                                                  {
+                                                                      "value":  "45+",
+                                                                      "label":  "Years of craft"
+                                                                  },
+                                                                  {
+                                                                      "value":  "Worldwide",
+                                                                      "label":  "Markets served"
+                                                                  }
+                                                              ]
+                                                },
+                                                {
+                                                    "id":  "featured-products",
+                                                    "type":  "productGrid",
+                                                    "visible":  true,
+                                                    "title":  "Featured collections",
+                                                    "description":  "Popular styles and new favourites.",
+                                                    "productIds":  [
+                                                                       25,
+                                                                       19,
+                                                                       10,
+                                                                       16,
+                                                                       17,
+                                                                       20,
+                                                                       6,
+                                                                       13
+                                                                   ],
+                                                    "button":  "Explore all products",
+                                                    "buttonHref":  "/products"
+                                                },
+                                                {
+                                                    "id":  "video",
+                                                    "type":  "video",
+                                                    "visible":  true,
+                                                    "eyebrow":  "STEP INSIDE OUR WORLD",
+                                                    "title":  "See the beauty in motion.",
+                                                    "description":  "Discover the colours, collections and craftsmanship behind Arbuda Bangles.",
+                                                    "youtubeId":  "BCrZokqVrVw",
+                                                    "button":  "Explore gallery",
+                                                    "buttonHref":  "/gallery"
+                                                },
+                                                {
+                                                    "id":  "gallery-preview",
+                                                    "type":  "galleryGrid",
+                                                    "visible":  true,
+                                                    "title":  "Our colourful world",
+                                                    "categoryIndexes":  [
+                                                                            1,
+                                                                            8,
+                                                                            4,
+                                                                            13
+                                                                        ]
+                                                },
+                                                {
+                                                    "id":  "team",
+                                                    "type":  "teamCarousel",
+                                                    "visible":  true,
+                                                    "title":  "The people behind the craft",
+                                                    "items":  [
+                                                                  {
+                                                                      "name":  "Mr. Anilbhai Prajapati",
+                                                                      "role":  "Founder",
+                                                                      "image":  "/assets/images/team/anilbprajapati-card.webp",
+                                                                      "description":  "The vision behind Arbuda"
+                                                                  },
+                                                                  {
+                                                                      "name":  "Mr. Pratik Prajapati",
+                                                                      "role":  "Managing Director",
+                                                                      "image":  "/assets/images/team/pratikmd.png",
+                                                                      "description":  "Guiding the next chapter"
+                                                                  },
+                                                                  {
+                                                                      "name":  "Sales desk",
+                                                                      "role":  "Sales \u0026 Exports",
+                                                                      "image":  "/assets/images/team/team3.jpeg",
+                                                                      "description":  "Here to help you source"
+                                                                  },
+                                                                  {
+                                                                      "name":  "Arbuda Bangles",
+                                                                      "role":  "Our Team",
+                                                                      "image":  "/assets/images/team/team1.jpeg",
+                                                                      "description":  "A family built on craft"
+                                                                  },
+                                                                  {
+                                                                      "name":  "Team",
+                                                                      "role":  "Arbuda Family",
+                                                                      "image":  "/assets/images/team/team2.jpeg",
+                                                                      "description":  "A family built on craft"
+                                                                  }
+                                                              ]
+                                                },
+                                                {
+                                                    "id":  "global-reach",
+                                                    "type":  "globalReach",
+                                                    "visible":  true,
+                                                    "title":  "A world of colour",
+                                                    "description":  "Connecting beautiful collections with business partners around the world.",
+                                                    "markets":  [
+                                                                    "India",
+                                                                    "Middle East",
+                                                                    "North America",
+                                                                    "Europe",
+                                                                    "Africa",
+                                                                    "Asia Pacific"
+                                                                ]
+                                                },
+                                                {
+                                                    "id":  "reviews",
+                                                    "type":  "reviewCarousel",
+                                                    "visible":  true,
+                                                    "title":  "Trusted by our partners",
+                                                    "description":  "Real experiences from the people we work with.",
+                                                    "items":  [
+                                                                  {
+                                                                      "name":  "Anmol",
+                                                                      "image":  "/assets/images/client-avatars/anmol.png",
+                                                                      "rating":  5,
+                                                                      "quote":  "It was great doing business with Pratik bhaiya. Loved the range, prices, easy billing and payment methods. No doubt, a great place to buy bangles."
+                                                                  },
+                                                                  {
+                                                                      "name":  "Bhavesh Dixit",
+                                                                      "image":  "/assets/images/client-avatars/bhaveshdixit.png",
+                                                                      "rating":  5,
+                                                                      "quote":  "Best variety of bangles available here with very standard rates. A great business policy and goods delivered to your doorstep by transport."
+                                                                  },
+                                                                  {
+                                                                      "name":  "Nappu",
+                                                                      "image":  "/assets/images/client-avatars/nappu.png",
+                                                                      "rating":  5,
+                                                                      "quote":  "A great experience with a lovely range of bangles and helpful service."
+                                                                  },
+                                                                  {
+                                                                      "name":  "Customer",
+                                                                      "image":  "/assets/images/client-avatars/mddanish.png",
+                                                                      "rating":  5,
+                                                                      "quote":  "The shop owner is very frank. Prices are good and the finishing of the bangles is also good."
+                                                                  },
+                                                                  {
+                                                                      "name":  "Harprit Singh",
+                                                                      "image":  "/assets/images/client-avatars/harpritsingh.png",
+                                                                      "rating":  5,
+                                                                      "quote":  "Very organised business system. I am impressed by the way they deal with customers. Variety and rates are good."
+                                                                  },
+                                                                  {
+                                                                      "name":  "Sachet Verma",
+                                                                      "image":  "/assets/images/client-avatars/sachetverma.png",
+                                                                      "rating":  5,
+                                                                      "quote":  "Best experience. Excellent quality and excellent staff work."
+                                                                  }
+                                                              ]
+                                                },
+                                                {
+                                                    "id":  "cta",
+                                                    "type":  "callToAction",
+                                                    "visible":  true,
+                                                    "eyebrow":  "WHOLESALE \u0026 TRADE ENQUIRIES",
+                                                    "title":  "Find your perfect collection.",
+                                                    "description":  "Get in touch for product availability, bulk orders and quotations.",
+                                                    "button":  "Enquire now",
+                                                    "action":  "enquiryModal"
+                                                }
+                                            ]
+                           },
+                  "about":  {
+                                "title":  "Our Story",
+                                "description":  "A legacy of jewellery and trust since 1977.",
+                                "sections":  [
+                                                 {
+                                                     "id":  "intro",
+                                                     "type":  "imageText",
+                                                     "visible":  true,
+                                                     "eyebrow":  "Welcome to Arbuda Bangles",
+                                                     "title":  "Inspired by tradition. Built on trust.",
+                                                     "description":  "Established in 1977, Arbuda Bangles brings together traditional craftsmanship, vibrant colour and dependable service. We are exporters, suppliers and traders of bangles and kadas.",
+                                                     "image":  "/assets/images/slider/slider1.png",
+                                                     "button":  "Explore products",
+                                                     "buttonHref":  "/products"
+                                                 },
+                                                 {
+                                                     "id":  "values",
+                                                     "type":  "stats",
+                                                     "visible":  true,
+                                                     "items":  [
+                                                                   {
+                                                                       "value":  "1977",
+                                                                       "label":  "Established"
+                                                                   },
+                                                                   {
+                                                                       "value":  "Worldwide",
+                                                                       "label":  "Markets covered"
+                                                                   },
+                                                                   {
+                                                                       "value":  "45+",
+                                                                       "label":  "Years of experience"
+                                                                   }
+                                                               ]
+                                                 }
+                                             ]
+                            },
+                  "products":  {
+                                   "title":  "Our Products",
+                                   "description":  "Explore our jewellery range and enquire directly for availability and wholesale quotations.",
+                                   "searchPlaceholder":  "Search products by name",
+                                   "emptyMessage":  "No matching products found.",
+                                   "enquiryButton":  "Enquire",
+                                   "productDetailButton":  "View details",
+                                   "availabilityLabel":  "Availability \u0026 pricing",
+                                   "availabilityValue":  "On enquiry"
+                               },
+                  "catalogue":  {
+                                    "title":  "Digital Catalogue",
+                                    "description":  "Browse our collections by category. Contact us for the latest product sheets and availability.",
+                                    "ctaTitle":  "Need the latest catalogue?",
+                                    "ctaDescription":  "Request updated product images, specifications and wholesale information.",
+                                    "ctaButton":  "Request catalogue"
+                                },
+                  "gallery":  {
+                                  "title":  "Gallery",
+                                  "description":  "A glimpse into our collections."
+                              },
+                  "contact":  {
+                                  "title":  "Contact Us",
+                                  "description":  "We would love to hear from you. Send us an enquiry about our collections.",
+                                  "address":  "1442, Rangati Bazar, Near Suthar Wadas Pole, Astodia, Ahmedabad, Gujarat 380001, India",
+                                  "departments":  [
+                                                      {
+                                                          "name":  "Sales Department",
+                                                          "phones":  [
+                                                                         "+91 92655 98961",
+                                                                         "+91 78638 67139"
+                                                                     ]
+                                                      },
+                                                      {
+                                                          "name":  "Purchase Department",
+                                                          "phones":  [
+                                                                         "+91 95747 71721",
+                                                                         "+91 92652 56659"
+                                                                     ]
+                                                      },
+                                                      {
+                                                          "name":  "Transport Department",
+                                                          "phones":  [
+                                                                         "+91 92653 47683"
+                                                                     ]
+                                                      },
+                                                      {
+                                                          "name":  "Administration",
+                                                          "phones":  [
+                                                                         "+91 98790 03308",
+                                                                         "+91 93270 90609"
+                                                                     ]
+                                                      }
+                                                  ],
+                                  "emails":  [
+                                                 "pratikpraj@gmail.com",
+                                                 "info@abbangles.com"
+                                             ],
+                                  "gst":  "24ABRPP5239L1Z1",
+                                  "form":  {
+                                               "title":  "Send an Enquiry",
+                                               "fields":  [
+                                                              "name",
+                                                              "email",
+                                                              "phone",
+                                                              "businessType",
+                                                              "message"
+                                                          ],
+                                               "businessTypes":  [
+                                                                     "Wholesaler",
+                                                                     "Retailer",
+                                                                     "Distributor"
+                                                                 ],
+                                               "submitButton":  "Send via WhatsApp"
+                                           }
+                              }
+              },
+    "footer":  {
+                   "brandName":  "Arbuda Bangles",
+                   "description":  "Traditional elegance, timeless collections. Exporter, supplier and trader of bangles and kadas since 1977.",
+                   "exploreTitle":  "Explore",
+                   "links":  [
+                                 {
+                                     "label":  "Our Products",
+                                     "href":  "/products"
+                                 },
+                                 {
+                                     "label":  "About Us",
+                                     "href":  "/about"
+                                 },
+                                 {
+                                     "label":  "Catalogue",
+                                     "href":  "/catalogue"
+                                 },
+                                 {
+                                     "label":  "Contact",
+                                     "href":  "/contact"
+                                 }
+                             ],
+                   "contactTitle":  "Get in touch",
+                   "address":  "1442, Rangati Bazar, Near Suthar Wadas Pole, Astodia, Ahmedabad, Gujarat 380001",
+                   "phone":  "+91 98790 03308",
+                   "email":  "pratikpraj@gmail.com",
+                   "copyright":  "All rights reserved.",
+                   "gst":  "24ABRPP5239L1Z1",
+                   "floatingButton":  "WhatsApp"
+               },
+    "collections":  {
+                        "categories":  [
+                                           {
+                                               "id":  1,
+                                               "name":  "Acrylic Bangles",
+                                               "image":  "assets/images/abbangles-01.jpeg"
+                                           },
+                                           {
+                                               "id":  2,
+                                               "name":  "Brass Bangles",
+                                               "image":  "assets/images/abbangles-02.jpeg"
+                                           },
+                                           {
+                                               "id":  3,
+                                               "name":  "Brass with Acrylic Bangles",
+                                               "image":  "assets/images/abbangles-03.png"
+                                           },
+                                           {
+                                               "id":  4,
+                                               "name":  "Casting Bangles",
+                                               "image":  "assets/images/abbangles-04.png"
+                                           },
+                                           {
+                                               "id":  5,
+                                               "name":  "Bracelets",
+                                               "image":  "assets/images/abbangles-05.png"
+                                           },
+                                           {
+                                               "id":  6,
+                                               "name":  "Chuda Sets",
+                                               "image":  "assets/images/abbangles-06.jpeg"
+                                           },
+                                           {
+                                               "id":  7,
+                                               "name":  "Bangles Sets",
+                                               "image":  "assets/images/bangles-07.svg"
+                                           },
+                                           {
+                                               "id":  8,
+                                               "name":  "Kada \u0026 Chudi (Acrylic)",
+                                               "image":  "assets/images/abbangles-08.png"
+                                           },
+                                           {
+                                               "id":  9,
+                                               "name":  "Marble Bangles",
+                                               "image":  "assets/images/bangles-09.svg"
+                                           },
+                                           {
+                                               "id":  10,
+                                               "name":  "Lamination Bangles",
+                                               "image":  "assets/images/bangles-10.svg"
+                                           },
+                                           {
+                                               "id":  11,
+                                               "name":  "Diamond Bangles (Acrylic)",
+                                               "image":  "assets/images/bangles-11.svg"
+                                           },
+                                           {
+                                               "id":  12,
+                                               "name":  "Plain Bangles (Acrylic)",
+                                               "image":  "assets/images/abbangles-14.png"
+                                           },
+                                           {
+                                               "id":  13,
+                                               "name":  "Kids Bangles",
+                                               "image":  "assets/images/bangles-13.svg"
+                                           },
+                                           {
+                                               "id":  14,
+                                               "name":  "Plastic Bangles",
+                                               "image":  "assets/images/bangles-12.svg"
+                                           }
+                                       ],
+                        "products":  [
+                                         {
+                                             "id":  1,
+                                             "name":  "CANON OPK",
+                                             "categoryId":  1,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore CANON OPK in our Acrylic Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  2,
+                                             "name":  "COOL OPK AD",
+                                             "categoryId":  1,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore COOL OPK AD in our Acrylic Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  3,
+                                             "name":  "TAJ MAHAL ICE RAINBOW",
+                                             "categoryId":  1,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore TAJ MAHAL ICE RAINBOW in our Acrylic Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  4,
+                                             "name":  "SATISFY TRANCE",
+                                             "categoryId":  1,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore SATISFY TRANCE in our Acrylic Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  5,
+                                             "name":  "RAJA RAM TRANCE RAINBOW",
+                                             "categoryId":  1,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore RAJA RAM TRANCE RAINBOW in our Acrylic Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  6,
+                                             "name":  "SM-MOTI VENI NO-136",
+                                             "categoryId":  2,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore SM-MOTI VENI NO-136 in our Brass Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  7,
+                                             "name":  "SM-MOTI VENI NO-122",
+                                             "categoryId":  2,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore SM-MOTI VENI NO-122 in our Brass Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  8,
+                                             "name":  "SM-MOTI VENI NO-135",
+                                             "categoryId":  2,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore SM-MOTI VENI NO-135 in our Brass Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  9,
+                                             "name":  "SM-MOTI VENI NO-134",
+                                             "categoryId":  2,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore SM-MOTI VENI NO-134 in our Brass Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  10,
+                                             "name":  "SM-MOTI VENI NO-112",
+                                             "categoryId":  2,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore SM-MOTI VENI NO-112 in our Brass Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  11,
+                                             "name":  "VANRAJ-001 OPK",
+                                             "categoryId":  3,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore VANRAJ-001 OPK in our Brass with Acrylic Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  12,
+                                             "name":  "MILLION 001 OPK",
+                                             "categoryId":  3,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore MILLION 001 OPK in our Brass with Acrylic Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  13,
+                                             "name":  "SBK MARABLE-025 OPK",
+                                             "categoryId":  3,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore SBK MARABLE-025 OPK in our Brass with Acrylic Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  14,
+                                             "name":  "SBK MARABLE-022 OPK",
+                                             "categoryId":  3,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore SBK MARABLE-022 OPK in our Brass with Acrylic Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  15,
+                                             "name":  "SBC MARABLE-041 OPK",
+                                             "categoryId":  3,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore SBC MARABLE-041 OPK in our Brass with Acrylic Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  16,
+                                             "name":  "SBC MARABLE-042 OPK",
+                                             "categoryId":  3,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore SBC MARABLE-042 OPK in our Brass with Acrylic Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  17,
+                                             "name":  "PRIME GOLD-011 OPK",
+                                             "categoryId":  3,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore PRIME GOLD-011 OPK in our Brass with Acrylic Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  18,
+                                             "name":  "MHM-VENI-204 OPK",
+                                             "categoryId":  3,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore MHM-VENI-204 OPK in our Brass with Acrylic Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  19,
+                                             "name":  "SPMI-1350 OPK",
+                                             "categoryId":  3,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore SPMI-1350 OPK in our Brass with Acrylic Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  20,
+                                             "name":  "MHM-VENI-263 OPK",
+                                             "categoryId":  3,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore MHM-VENI-263 OPK in our Brass with Acrylic Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  21,
+                                             "name":  "SM-NET-AD-182",
+                                             "categoryId":  4,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore SM-NET-AD-182 in our Casting Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  22,
+                                             "name":  "SM-NET-AD-179",
+                                             "categoryId":  4,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore SM-NET-AD-179 in our Casting Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  23,
+                                             "name":  "SM-NET-AD-171",
+                                             "categoryId":  4,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore SM-NET-AD-171 in our Casting Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  24,
+                                             "name":  "BL-NET-4154",
+                                             "categoryId":  4,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore BL-NET-4154 in our Casting Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  25,
+                                             "name":  "BL-NET-4179",
+                                             "categoryId":  4,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore BL-NET-4179 in our Casting Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  26,
+                                             "name":  "SM-NET-BRACELET-271-AD",
+                                             "categoryId":  5,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore SM-NET-BRACELET-271-AD in our Bracelets collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  27,
+                                             "name":  "SM-NET-BRACELET-271-AD",
+                                             "categoryId":  5,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore SM-NET-BRACELET-271-AD in our Bracelets collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  28,
+                                             "name":  "SM-NET-BRACELET-256-AD",
+                                             "categoryId":  5,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore SM-NET-BRACELET-256-AD in our Bracelets collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  29,
+                                             "name":  "SM-NET-BRACELET-262-AD",
+                                             "categoryId":  5,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore SM-NET-BRACELET-262-AD in our Bracelets collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  30,
+                                             "name":  "SM-NET-BRACELET-264-AD",
+                                             "categoryId":  5,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore SM-NET-BRACELET-264-AD in our Bracelets collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  31,
+                                             "name":  "NEW WEDDING-002",
+                                             "categoryId":  6,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore NEW WEDDING-002 in our Chuda Sets collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  32,
+                                             "name":  "NEW WEDDING-001",
+                                             "categoryId":  6,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore NEW WEDDING-001 in our Chuda Sets collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  33,
+                                             "name":  "REGULER OPk",
+                                             "categoryId":  6,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore REGULER OPk in our Chuda Sets collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  34,
+                                             "name":  "PREWEDDING-103",
+                                             "categoryId":  6,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore PREWEDDING-103 in our Chuda Sets collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  35,
+                                             "name":  "TUBELIGHT",
+                                             "categoryId":  6,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore TUBELIGHT in our Chuda Sets collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  36,
+                                             "name":  "MISS YOU ICE",
+                                             "categoryId":  7,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore MISS YOU ICE in our Bangles Sets collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  37,
+                                             "name":  "LOVE ME ICE",
+                                             "categoryId":  7,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore LOVE ME ICE in our Bangles Sets collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  38,
+                                             "name":  "LAHER (IO)",
+                                             "categoryId":  7,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore LAHER (IO) in our Bangles Sets collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  39,
+                                             "name":  "VOLTAS ZARI TRANCE set",
+                                             "categoryId":  7,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore VOLTAS ZARI TRANCE set in our Bangles Sets collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  40,
+                                             "name":  "JYOTIKA-3 TRANCE",
+                                             "categoryId":  7,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore JYOTIKA-3 TRANCE in our Bangles Sets collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  41,
+                                             "name":  "RAMA DATIYA",
+                                             "categoryId":  13,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore RAMA DATIYA in our Kids Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  42,
+                                             "name":  "CHILLAR PARTY DATIYA",
+                                             "categoryId":  13,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore CHILLAR PARTY DATIYA in our Kids Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  43,
+                                             "name":  "CHOTA BHIM",
+                                             "categoryId":  13,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore CHOTA BHIM in our Kids Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  44,
+                                             "name":  "SARAS 1 DATIYA",
+                                             "categoryId":  13,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore SARAS 1 DATIYA in our Kids Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  45,
+                                             "name":  "SX 4 DATIYA",
+                                             "categoryId":  13,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore SX 4 DATIYA in our Kids Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  46,
+                                             "name":  "GOODNEWS DATIYA",
+                                             "categoryId":  13,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore GOODNEWS DATIYA in our Kids Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  47,
+                                             "name":  "SPARSH TRANCE",
+                                             "categoryId":  8,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore SPARSH TRANCE in our Kada \u0026 Chudi (Acrylic) collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  48,
+                                             "name":  "OLYMPIC",
+                                             "categoryId":  8,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore OLYMPIC in our Kada \u0026 Chudi (Acrylic) collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  49,
+                                             "name":  "CHITRASHALA TRANCE",
+                                             "categoryId":  8,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore CHITRASHALA TRANCE in our Kada \u0026 Chudi (Acrylic) collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  50,
+                                             "name":  "GALAXY ICE",
+                                             "categoryId":  8,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore GALAXY ICE in our Kada \u0026 Chudi (Acrylic) collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  51,
+                                             "name":  "OLDWINE ICE AD",
+                                             "categoryId":  8,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore OLDWINE ICE AD in our Kada \u0026 Chudi (Acrylic) collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  52,
+                                             "name":  "BSP-1333",
+                                             "categoryId":  9,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore BSP-1333 in our Marble Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  53,
+                                             "name":  "BSP-1333",
+                                             "categoryId":  9,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore BSP-1333 in our Marble Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  54,
+                                             "name":  "BSP-995",
+                                             "categoryId":  9,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore BSP-995 in our Marble Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  55,
+                                             "name":  "BSP-998",
+                                             "categoryId":  9,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore BSP-998 in our Marble Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  56,
+                                             "name":  "BSP-1248",
+                                             "categoryId":  9,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore BSP-1248 in our Marble Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  57,
+                                             "name":  "BSP-1218",
+                                             "categoryId":  9,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore BSP-1218 in our Marble Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  58,
+                                             "name":  "PBK-2009",
+                                             "categoryId":  9,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore PBK-2009 in our Marble Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  59,
+                                             "name":  "PBK-2017 LCD",
+                                             "categoryId":  9,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore PBK-2017 LCD in our Marble Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  60,
+                                             "name":  "PBK-2016 LCD",
+                                             "categoryId":  9,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore PBK-2016 LCD in our Marble Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  61,
+                                             "name":  "DI-1043 KEY",
+                                             "categoryId":  9,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore DI-1043 KEY in our Marble Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  62,
+                                             "name":  "MEGHMANI OPK",
+                                             "categoryId":  10,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore MEGHMANI OPK in our Lamination Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  63,
+                                             "name":  "MAHAVIR OPK RAINBOW",
+                                             "categoryId":  10,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore MAHAVIR OPK RAINBOW in our Lamination Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  64,
+                                             "name":  "NAZAR OPK PTL",
+                                             "categoryId":  10,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore NAZAR OPK PTL in our Lamination Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  65,
+                                             "name":  "CHAVA OPK",
+                                             "categoryId":  10,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore CHAVA OPK in our Lamination Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  66,
+                                             "name":  "SHIPRA TRANCE",
+                                             "categoryId":  10,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore SHIPRA TRANCE in our Lamination Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  67,
+                                             "name":  "VIVAAN OPK",
+                                             "categoryId":  10,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore VIVAAN OPK in our Lamination Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  68,
+                                             "name":  "ROX ICE",
+                                             "categoryId":  10,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore ROX ICE in our Lamination Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  69,
+                                             "name":  "ZIL NAGRI TRANCE",
+                                             "categoryId":  10,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore ZIL NAGRI TRANCE in our Lamination Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  70,
+                                             "name":  "SARJAN -1101 ICE",
+                                             "categoryId":  10,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore SARJAN -1101 ICE in our Lamination Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  71,
+                                             "name":  "SARJAN -1113 ICE",
+                                             "categoryId":  10,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore SARJAN -1113 ICE in our Lamination Bangles collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  72,
+                                             "name":  "KC-25 TRANCE",
+                                             "categoryId":  11,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore KC-25 TRANCE in our Diamond Bangles (Acrylic) collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  73,
+                                             "name":  "KC-21 OPK",
+                                             "categoryId":  11,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore KC-21 OPK in our Diamond Bangles (Acrylic) collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  74,
+                                             "name":  "BOOSTER 2 CUT OPK",
+                                             "categoryId":  11,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore BOOSTER 2 CUT OPK in our Diamond Bangles (Acrylic) collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  75,
+                                             "name":  "GAGAN TRANCE DC",
+                                             "categoryId":  11,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore GAGAN TRANCE DC in our Diamond Bangles (Acrylic) collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  76,
+                                             "name":  "MRJ-2110 OPK",
+                                             "categoryId":  11,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore MRJ-2110 OPK in our Diamond Bangles (Acrylic) collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  77,
+                                             "name":  "MRJ-2108 OPK",
+                                             "categoryId":  11,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore MRJ-2108 OPK in our Diamond Bangles (Acrylic) collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  78,
+                                             "name":  "MRJ-4104 OPK",
+                                             "categoryId":  11,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore MRJ-4104 OPK in our Diamond Bangles (Acrylic) collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  79,
+                                             "name":  "MRJ-AK-49 PEARL",
+                                             "categoryId":  11,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore MRJ-AK-49 PEARL in our Diamond Bangles (Acrylic) collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  80,
+                                             "name":  "AGNISHAKSHI TRANCE RAINBOW",
+                                             "categoryId":  11,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore AGNISHAKSHI TRANCE RAINBOW in our Diamond Bangles (Acrylic) collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  81,
+                                             "name":  "LAKSITA OPK",
+                                             "categoryId":  11,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore LAKSITA OPK in our Diamond Bangles (Acrylic) collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  82,
+                                             "name":  "VOLTAS ZARI TRANCE",
+                                             "categoryId":  12,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore VOLTAS ZARI TRANCE in our Plain Bangles (Acrylic) collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  83,
+                                             "name":  "HASHTAG TRANCE",
+                                             "categoryId":  12,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore HASHTAG TRANCE in our Plain Bangles (Acrylic) collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  84,
+                                             "name":  "INTERNATIONAL ICE",
+                                             "categoryId":  12,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore INTERNATIONAL ICE in our Plain Bangles (Acrylic) collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  85,
+                                             "name":  "BUDDY TRANCE",
+                                             "categoryId":  12,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore BUDDY TRANCE in our Plain Bangles (Acrylic) collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         },
+                                         {
+                                             "id":  86,
+                                             "name":  "BABY SHY",
+                                             "categoryId":  12,
+                                             "image":  "assets/images/bangles-10.svg",
+                                             "description":  "Explore BABY SHY in our Plain Bangles (Acrylic) collection. Contact Arbuda Bangles for available colours, sizes, availability and wholesale pricing."
+                                         }
+                                     ]
+                    }
+}

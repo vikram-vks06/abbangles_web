@@ -1,0 +1,24 @@
+{
+  "name": "arbuda-bangles-catalogue",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build:webadmin": "npm run build --prefix webadmin",
+    "predev": "npm run build:webadmin",
+    "build": "npm run build:webadmin && next build && npm run prepare:standalone",
+    "start": "node .next/standalone/server.js",
+    "format": "prettier --write app lib next.config.mjs",
+    "build:css": "tailwindcss -i ./assets/css/input.css -o ./assets/css/tailwind.css --minify",
+    "prepare:standalone": "node scripts/prepare-standalone.mjs"
+  },
+  "dependencies": {
+    "next": "^15.5.6",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.10",
+    "prettier": "^3.10.1",
+    "tailwindcss": "^4.1.10"
+  }
+}

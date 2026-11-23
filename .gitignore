@@ -1,0 +1,9 @@
+node_modules/
+.next/
+.npm-cache/
+out/
+dist/
+public/webadmin-app/
+webadmin/database/web_edobizclients.sql
+.env*
+!.env.example
