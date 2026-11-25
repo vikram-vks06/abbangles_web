@@ -8,7 +8,9 @@ company-scoped tables inside one database transaction.
 
 1. Create the `web_edobizclients` database and import `../database/schema.sql`.
 2. Copy `.env.example` to `.env`. Configure the MariaDB root password and set
-   `JWT_SECRET` to a random secret of at least 32 characters.
+   `JWT_SECRET` to a random secret of at least 32 characters. The example allows
+   the local Next.js admin (`localhost:3000`) and standalone Vite admin
+   (`localhost:5174`) to call the API.
 3. Install dependencies with `npm install`.
 4. Seed the Arbuda Bangles company, normalized starter content, and an owner account:
 
@@ -31,7 +33,8 @@ company-scoped tables inside one database transaction.
 
 The API listens on `127.0.0.1:4000` by default. Set `HOST=0.0.0.0` only when it
 needs to accept connections from other machines, and add the webadmin origin to
-`CORS_ORIGINS`.
+`CORS_ORIGINS`. In local development, the API also permits the listed loopback
+origins unless `NODE_ENV=production`; production requires explicit origins.
 
 The login token contains the company IDs attached to that user's account. All
 content reads and writes check both the authenticated memberships and the

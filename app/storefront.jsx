@@ -654,6 +654,7 @@ export default function Storefront({ initialContent }) {
   const [teamActive, setTeamActive] = useState(0);
   const [reviewActive, setReviewActive] = useState(0);
   const [videoPlaying, setVideoPlaying] = useState(false);
+  const videoSectionRef = useRef(null);
   const [enquiry, setEnquiry] = useState(null);
   const [contactSubmitting, setContactSubmitting] = useState(false);
   const [contactSuccess, setContactSuccess] = useState("");
@@ -664,6 +665,15 @@ export default function Storefront({ initialContent }) {
   const teamSection = section("team");
   const reviewSection = section("reviews");
   const videoSection = section("video");
+  const videoId = videoSection?.youtubeId || "";
+  const youtubeThumbnail = videoId
+    ? `https://img.youtube.com/vi/${encodeURIComponent(videoId)}/hqdefault.jpg`
+    : "";
+  const localVideoPoster = imageUrl("/assets/images/slider/slider1.png");
+  const videoPosterFallback = youtubeThumbnail || localVideoPoster;
+  const videoPoster = videoSection?.previewImage
+    ? imageUrl(videoSection.previewImage)
+    : videoPosterFallback;
   const teamMembers = (teamSection?.items || []).filter(
     (item) => item.visible !== false,
   );
@@ -756,6 +766,29 @@ export default function Storefront({ initialContent }) {
     );
     return () => clearInterval(id);
   }, [pathname, clientReviews.length]);
+  useEffect(() => {
+    const element = videoSectionRef.current;
+    if (
+      pathname !== "/" ||
+      videoSection?.visible === false ||
+      !videoId ||
+      !element
+    ) {
+      setVideoPlaying(false);
+      return;
+    }
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setVideoPlaying(
+          entry.isIntersecting && entry.intersectionRatio >= 0.25,
+        );
+      },
+      { threshold: 0.25 },
+    );
+    observer.observe(element);
+    return () => observer.disconnect();
+  }, [pathname, videoId, videoSection?.visible]);
   const selected = query.get("id") || "";
   const category = query.get("category") || "";
   const filtered = useMemo(
@@ -1450,7 +1483,7 @@ export default function Storefront({ initialContent }) {
           </main>
         )}
         {videoSection?.visible !== false && videoSection && (
-          <section className="video-section">
+          <section className="video-section" ref={videoSectionRef}>
             <div className="max-w-7xl mx-auto px-5 py-20 md:py-28 grid lg:grid-cols-2 gap-10 lg:gap-20 items-center">
               <div>
                 <p className="section-kicker">{videoSection.eyebrow}</p>
@@ -1489,11 +1522,23 @@ export default function Storefront({ initialContent }) {
                       ) : (
                         <>
                           <img
-                            src={imageUrl(
-                              videoSection.previewImage ||
-                                "/assets/images/bangles-08.svg",
-                            )}
+                            src={videoPoster}
                             alt={videoSection.imageAlt || videoSection.title}
+                            onError={(event) => {
+                              const image = event.currentTarget;
+                              if (image.dataset.posterFallback === "local")
+                                return;
+                              if (
+                                image.src !== videoPosterFallback &&
+                                videoPosterFallback !== localVideoPoster
+                              ) {
+                                image.dataset.posterFallback = "youtube";
+                                image.src = videoPosterFallback;
+                                return;
+                              }
+                              image.dataset.posterFallback = "local";
+                              image.src = localVideoPoster;
+                            }}
                           />
                           <div className="video-screen-overlay" />
                           <button

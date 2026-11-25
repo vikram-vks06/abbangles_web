@@ -32,10 +32,20 @@ if (!jwtSecret || jwtSecret.length < 32) {
   throw new Error("JWT_SECRET must be set to a random value of at least 32 characters.");
 }
 
-const allowedOrigins = (process.env.CORS_ORIGINS || "")
+const configuredOrigins = (process.env.CORS_ORIGINS || "")
   .split(",")
   .map((origin) => origin.trim())
   .filter(Boolean);
+const localDevelopmentOrigins =
+  process.env.NODE_ENV === "production"
+    ? []
+    : [
+        "http://localhost:3000",
+        "http://127.0.0.1:3000",
+        "http://localhost:5174",
+        "http://127.0.0.1:5174",
+      ];
+const allowedOrigins = [...new Set([...configuredOrigins, ...localDevelopmentOrigins])];
 
 app.disable("x-powered-by");
 app.use(helmet());
