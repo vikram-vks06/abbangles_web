@@ -12,7 +12,7 @@ import pool from "./db.js";
 import { getDocument, saveDocument } from "./content-store.js";
 
 const app = express();
-const port = Number(process.env.PORT || 4000);
+const port = Number(process.env.PORT || 5000);
 const jwtSecret = process.env.JWT_SECRET;
 const defaultContentPath = fileURLToPath(
   new URL("../../src/data/site-content.json", import.meta.url),
@@ -155,7 +155,7 @@ app.get("/public/v1/companies/:companyId/content", async (req, res, next) => {
   }
 });
 
-app.post("/admin/v1/auth/login", async (req, res, next) => {
+app.post("/webadmin/v1/auth/login", async (req, res, next) => {
   try {
     const email = typeof req.body?.email === "string" ? req.body.email.trim().toLowerCase() : "";
     const password = typeof req.body?.password === "string" ? req.body.password : "";
@@ -198,7 +198,7 @@ app.post("/admin/v1/auth/login", async (req, res, next) => {
   }
 });
 
-app.get("/admin/v1/companies", authenticate, async (req, res, next) => {
+app.get("/webadmin/v1/companies", authenticate, async (req, res, next) => {
   try {
     if (!req.user.companyIds.length) return res.json([]);
     const placeholders = req.user.companyIds.map(() => "?").join(",");
@@ -216,7 +216,7 @@ app.get("/admin/v1/companies", authenticate, async (req, res, next) => {
 });
 
 app.get(
-  "/admin/v1/companies/:companyId/media",
+  "/webadmin/v1/companies/:companyId/media",
   authenticate,
   authorizeCompany,
   async (req, res, next) => {
@@ -244,7 +244,7 @@ app.get(
 );
 
 app.post(
-  "/admin/v1/companies/:companyId/media/folders",
+  "/webadmin/v1/companies/:companyId/media/folders",
   authenticate,
   authorizeCompany,
   async (req, res, next) => {
@@ -272,7 +272,7 @@ app.post(
 );
 
 app.post(
-  "/admin/v1/companies/:companyId/media/upload",
+  "/webadmin/v1/companies/:companyId/media/upload",
   authenticate,
   authorizeCompany,
   async (req, res, next) => {
@@ -340,7 +340,7 @@ app.post(
 );
 
 app.patch(
-  "/admin/v1/companies/:companyId/media/assets/:assetId",
+  "/webadmin/v1/companies/:companyId/media/assets/:assetId",
   authenticate,
   authorizeCompany,
   async (req, res, next) => {
@@ -385,7 +385,7 @@ app.patch(
 );
 
 app.delete(
-  "/admin/v1/companies/:companyId/media/assets/:assetId",
+  "/webadmin/v1/companies/:companyId/media/assets/:assetId",
   authenticate,
   authorizeCompany,
   async (req, res, next) => {
@@ -449,7 +449,7 @@ app.delete(
 );
 
 app.get(
-  "/admin/v1/companies/:companyId/content",
+  "/webadmin/v1/companies/:companyId/content",
   authenticate,
   authorizeCompany,
   async (req, res, next) => {
@@ -482,7 +482,7 @@ app.get(
 );
 
 app.put(
-  "/admin/v1/companies/:companyId/content",
+  "/webadmin/v1/companies/:companyId/content",
   authenticate,
   authorizeCompany,
   async (req, res, next) => {

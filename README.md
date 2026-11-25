@@ -26,7 +26,7 @@ The route switch and page presentation are in `app/storefront.jsx`; editable cop
 
 A React + Vite content management app is in `webadmin/` and is served at `/webadmin` on the storefront domain. The root development and production build scripts generate its static bundle before starting/building Next.js. The app can also be run separately with `npm run dev --prefix webadmin` on port 5174. Set `VITE_SITE_ORIGIN=https://abbangles.com` and configure `VITE_ADMIN_API_URL` in `webadmin/.env.local` before the production build. The complete sample content document is `webadmin/src/data/site-content.json`; the multi-company SQL schema is `webadmin/database/schema.sql`, and the API contract is in `webadmin/API-CONTRACT.md`.
 
-The storefront reads its site content, pages, navigation, products, categories, and settings from the public content API backed by MariaDB. Configure `NEXT_PUBLIC_CONTENT_API_URL` in the project-root `.env.local` (for the local setup: `http://127.0.0.1:4000/public/v1/companies/A1B1/content`). The API is in `webadmin/api/`.
+The storefront reads its site content, pages, navigation, products, categories, and settings from the public content API backed by MariaDB. Configure `NEXT_PUBLIC_CONTENT_API_URL` in the project-root `.env.local` (for the local setup: `http://127.0.0.1:5000/public/v1/companies/A1B1/content`). The API is in `webadmin/api/`.
 
 The same category list is available from the storefront at `GET /api/categories`, returning `{ "categories": [...] }`.
 

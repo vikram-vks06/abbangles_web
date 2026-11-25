@@ -28,10 +28,10 @@ company-scoped tables inside one database transaction.
    ```
 
 5. Start the API with `npm run dev`.
-6. Set `VITE_ADMIN_API_URL=http://127.0.0.1:4000/admin/v1` in
+6. Set `VITE_ADMIN_API_URL=http://127.0.0.1:5000/webadmin/v1` in
    `webadmin/.env.local`, then restart Vite.
 
-The API listens on `127.0.0.1:4000` by default. Set `HOST=0.0.0.0` only when it
+The API listens on `127.0.0.1:5000` by default. Set `HOST=0.0.0.0` only when it
 needs to accept connections from other machines, and add the webadmin origin to
 `CORS_ORIGINS`. In local development, the API also permits the listed loopback
 origins unless `NODE_ENV=production`; production requires explicit origins.
